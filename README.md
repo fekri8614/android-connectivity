@@ -1,5 +1,5 @@
 # android-connectivity
-I work with connectivity in Android and share them here.
+Worked with Wi-Fi and Bluetooth
 
 ## repositories:
 * *[Wifi](https://github.com/fekri8614/android-connectivity/tree/wifi-sample)*
