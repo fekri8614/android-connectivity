@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import info.fekri.connsamp.ui.theme.BackgroundMain
 import info.fekri.connsamp.ui.theme.ConnSampTheme
 
@@ -17,18 +18,8 @@ class MainActivity : AppCompatActivity() {
         window.decorView.layoutDirection = View.LAYOUT_DIRECTION_LTR
         setContent {
             ConnSampTheme {
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = BackgroundMain
-                ) {
-                    MainAppUi()
-                }
+                //
             }
         }
     }
-}
-
-@Composable
-fun MainAppUi() {
-
 }
