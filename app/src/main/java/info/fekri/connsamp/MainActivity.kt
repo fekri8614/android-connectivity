@@ -17,16 +17,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        val inflateLayout = findViewById<View>(R.id.network_error)
-        val networkConnection = NetworkConnection(applicationContext)
-        networkConnection.observe(this) { isConnected ->
-            if (isConnected) {
-                Toast.makeText(this, "Connected!", Toast.LENGTH_SHORT).show()
-                inflateLayout.visibility = View.VISIBLE
-            } else {
-                inflateLayout.visibility = View.GONE
-                Toast.makeText(this, "No Internet Connected!", Toast.LENGTH_SHORT).show()
-            }
-        }
     }
 }
