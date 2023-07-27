@@ -1,4 +1,4 @@
-package info.fekri.connsamp
+package info.fekri.connsamp.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
