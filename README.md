@@ -1,5 +1,5 @@
 # android-connectivity
-Android Connectivity Samples
+Wi-Fi connection samples
 
 
 ### `NetworkConnection.kt`:
